@@ -11,7 +11,7 @@ import sqlite3
 root = Tk()
 
 #geometry is used to set the dimensions of the window
-root.geometry('600x600')
+root.geometry('550x600')
 
 #title shows the title of the Tkinter window
 root.title("Employee Form")
@@ -41,7 +41,7 @@ def database():
    
              
 label_title = Label(root, text="Employee form",width=20,font=("bold", 30))
-label_title.place(x=70,y=53)
+label_title.place(x=35,y=53)
 
 
 label_name = Label(root, text="Name",width=20,font=("bold", 13))
