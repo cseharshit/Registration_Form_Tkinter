@@ -11,7 +11,7 @@ import sqlite3
 root = Tk()
 
 #geometry is used to set the dimensions of the window
-root.geometry('550x600')
+root.geometry('550x580')
 
 #title shows the title of the Tkinter window
 root.title("Employee Form")
@@ -22,7 +22,6 @@ Email=StringVar()
 Designation=StringVar()
 Gender = IntVar()
 Languages=IntVar()
-# Favorite_Language= IntVar()
 
 def database():
    name=Name.get()
